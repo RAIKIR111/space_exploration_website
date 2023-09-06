@@ -1,0 +1,764 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    overflow: hidden;
+    background-image: url(../images/wp25817421.jpg);
+    min-height: 100vh;
+    color: white;
+}
+ul {
+    list-style: none;
+}
+
+.header__title {
+    height: 15vw;
+    border: 3px solid blue;
+    box-shadow: 0 20px 50px darkblue;
+    background-image: url(../images/astronaut-001.png), url(../images/spacecraft-022.png), url(../images/AMC-6.png), url(../images/5b1d2cb5335ff163e9f6a3da.png), url(../images/Planet.png), url(../images/sputnik.png), url(../images/rocket.png), url(../images/11.png), url(../images/astronaut_PNG26.png), url(../images/earth-better1.png);
+    background-size: 10%, 8%, 15%, 15%, 11.5%, 11%, 10%, 11%, 8%, 80%;
+    background-repeat: no-repeat;
+    background-position: 25px 20px, 200px 20px, 370px 20px, 600px 20px, 850px 20px, 1025px 20px, 1250px 20px, 1450px 20px, 1625px 20px, center;
+}
+
+.header__title a {
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    background-size: 70%;
+    visibility: hidden;
+}
+
+.russian {
+    background: url(../images/ru_flag.png) no-repeat center center; 
+}
+
+.english {
+    background: url(../images/us_flag.png) no-repeat center center; 
+}
+
+.header__title a:hover {
+    background-color: rgba(72,99,234,0.3);
+}
+
+.header__title h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3.5vw;
+    color: white;
+	text-shadow: darkblue 2px 2px 0, darkblue -2px -2px 0, darkblue -2px 2px 0, darkblue 2px -2px 0;
+}
+
+.header__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__info1 {
+    display: flex;
+}
+
+main {
+    display: flex;
+}
+
+.correct {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation_section {
+    width: 70%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.navigation_section ul {
+    display: flex;
+    padding-top: 10px;
+}
+
+.navigation_button a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: Arial black;
+    font-size: 0.8vw;
+    text-transform: uppercase;
+    height: 100%;
+}
+
+.navigation_button {
+    border: 6px outset blue;
+    text-align: center;
+    background: rgba(72,99,234,0.3);
+    margin-left: 7px;
+    height: 100%;
+    padding: 5px;
+}
+
+.navigation_button:hover {
+    background-color: blue;
+}
+
+.navigation_button:nth-child(1) {
+    margin-left: 0px;
+}
+
+.quote {
+    font-family: comic sans ms;
+    padding-top: 6vw;
+    font-size: 0.9vw;
+    max-width: 20%;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.quote:nth-child(1) {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.quote li {
+    padding-top: 100px;
+}
+
+.quote li:nth-child(1) {
+    padding-top: 0px;
+}
+
+.quote li:nth-child(4) {
+    padding-top: 0px;
+}
+
+.info {
+    margin-top: 10px;
+    height: 160%;
+    background: url(../images/galaxy1.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text {
+    border: 3px outset blue;
+    background: rgba(72,99,234,0.3);
+    text-align: center;
+    font-size: 1.6vw;
+    margin: 10px;
+    padding: 20px;
+}
+
+.text10 {
+    border: 3px outset blue;
+    background: rgba(72,99,234,0.3);
+    text-align: center;
+    font-size: 1.6vw;
+    margin: 10px;
+    padding: 20px;
+    margin-top: 13%;
+}
+
+form .abc {
+    color: darkblue;
+    font-weight: 1000;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.labels {
+    border: 3px outset blue;
+    background: rgba(72,99,234,0.3);
+    width: 20%;
+    margin: 0 auto;
+    visibility: hidden;
+}
+
+.galaxy {
+    display: block;
+    max-height: 1000%;
+    margin: 0 auto;
+}
+
+#survey-form {
+    display: block;
+    text-align: center;
+    background-color: #1b1b32;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+  
+.abc {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.text__importance {
+    font-size: 1.1vw;
+    margin: 1vw;
+    border: 3px outset blue;
+    background: rgba(72,99,234,0.3);
+    padding: 14px;
+}
+
+.info__importance {
+    margin-top: 10px;
+    height: 12vw;
+}
+
+.pictures1 {
+    text-align: center;
+    background-image: url(../images/123.png), url(../images/1234.png);
+    background-size: 30%, 30%;
+    background-repeat: no-repeat;
+    background-position: left, right;
+}
+
+#picture1__1 {
+    width: 25%;
+}
+
+#picture1__2 {
+    width: 28%;
+    border: 10px groove white;
+}
+
+#picture1__3 {
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.info__history {
+    height: 18.8vw;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.text__history {
+    text-align: center;
+    border: 3px outset blue;
+    background: rgba(72,99,234,0.3);
+    font-size: 2vw;
+    min-width: 100vw;
+}
+
+.dates {
+    margin: 0 auto;
+    width: 30%;
+    margin-top: 10px;
+    padding: 10px;
+    column-count: 2;
+    background: rgba(72,99,234,0.3);
+}
+
+.dates1 {
+    color: white;
+    font-size: 1.3vw;
+}
+
+.dates1:hover {
+    color: skyblue;
+}
+
+.pictures2 {
+    text-align: center;
+    margin-top: 0.7vw;
+}
+
+.pictures_2 {
+    border: 10px groove white; 
+    margin-left: 1vw;
+    height: 20%;   
+}
+
+.pictures_2:nth-child(1) {
+    margin-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.info__pictures {
+    border: 3px outset blue;
+    background: rgba(72,99,234,0.3);
+    margin-top: 10px;
+    height: 3.6vw;
+    text-align: center;
+}
+
+.text__pictures {
+    font-size: 2.2vw;
+}
+
+.picture3__7 {
+    width: 38.7%;
+}
+
+.picture3__8 {
+    width: 29.8%;
+}
+
+.picture3__9 {
+    width: 27.8%;
+}
+
+.picture3__10 {
+    width: 34.29%;
+}
+
+.picture3__11 {
+    width: 27%;
+}
+
+.picture3__12 {
+    width: 31.56%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#picture4__1 {
+    width: 33%;
+}
+
+#picture4__2 {
+    width: 32.01%;
+}
+
+#picture4__3 {
+    width: 34.33%;
+}
+
+#picture4__4 {
+    width: 33%;
+}
+
+#picture4__5 {
+    width: 31.8%;
+}
+
+#picture4__6 {
+    width: 33.48%;
+}
+
+#picture4__7 {
+    width: 32.04%;
+}
+
+#picture4__8 {
+    width: 33.18%;
+}
+
+#picture4__9 {
+    width: 34.31%;
+}
+
+#picture4__1_1 {
+    width: 33%;
+}
+
+#picture4__2_2 {
+    width: 32.47%;
+}
+
+#picture4__3_3 {
+    width: 32.45%;
+}
+
+#picture4__4_4 {
+    width: 33%;
+}
+
+#picture4__5_5 {
+    width: 30.45%;
+}
+
+#picture4__6_6 {
+    width: 30.85%;
+}
+
+#picture4__7_7 {
+    width: 30%;
+}
+
+#picture4__8_8 {
+    width: 34.2%;
+}
+
+#picture4__9_9 {
+    width: 30.3%;
+}
+
+.pictures4 {
+    text-align: center;
+    margin-top: 1vw;
+}
+
+.pictures_4 {
+    border: 2px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#sputnik1__2 {
+    border: 10px groove white; 
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+#gagarin__1 {
+    border: 10px groove white;
+    width: 15%;
+}
+
+#gagarin__2 {
+    border: 10px groove white;
+    width: 13.93%;
+}
+
+#hero {
+    margin-left: 49%;
+    width: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#gemini8__1 {
+    border: 10px groove white;
+    width: 21%;
+}
+
+#gemini8__2 {
+    border: 10px groove white;
+    width: 24.68%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#kosmos186__1 {
+    border: 10px groove white;
+    width: 30%;
+}
+
+#kosmos186__2 {
+    border: 10px groove white;
+    width: 16.1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+#zond5__1 {
+    border: 10px groove white;
+    width: 23%;
+}
+
+#zond5__2 {
+    border: 10px groove white;
+    width: 13.39%;
+}
+
+
+
+
+
+
+
+
+
+
+#zoyuz45 {
+    border: 10px groove white;
+    width: 23.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#moon__1 {
+    border: 10px groove white;
+    width: 21%;
+}
+
+#moon__2 {
+    border: 10px groove white;
+    width: 27.7%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#spacestation__1 {
+    border: 10px groove white;
+    width: 23%;
+}
+
+#spacestation__2 {
+    border: 10px groove white;
+    width: 20.9%;
+}
+
+.spacestation__ul {
+    border: 3px outset blue;
+    background: rgba(72,99,234,0.3);
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.spacestation__ul li {
+    font-size: 1.1vw;
+    margin-left: 1.1vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#pioneer10__1 {
+    border: 10px groove white;
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#columbia__1 {
+    border: 10px groove white;
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.info-columbia {
+    border: 3px outset blue;
+    background: rgba(72,99,234,0.3); 
+    padding: 14px;
+    margin: 10px;
+    font-size: 1.1vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#buran__1 {
+    border: 10px groove white;
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#zarya__1 {
+    border: 10px groove white;
+    width: 30%;    
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1300px) {
+    .header__title {
+        height: 15vw;
+        border: 3px solid blue;
+        box-shadow: 0 20px 50px darkblue;
+        background-image: url(../images/astronaut-001.png), url(../images/spacecraft-022.png), url(../images/AMC-6.png), url(../images/5b1d2cb5335ff163e9f6a3da.png), url(../images/Planet.png), url(../images/sputnik.png), url(../images/rocket.png), url(../images/11.png), url(../images/astronaut_PNG26.png), url(../images/earth-better1.png);
+        background-size: 10%, 8%, 15%, 15%, 11.5%, 11%, 10%, 11%, 8%, 80%;
+        background-repeat: no-repeat;
+        background-position: 25px 20px, 150px 20px, 270px 20px, 440px 20px, 630px 20px, 760px 20px, 930px 20px, 1070px 20px, 1625px 20px, center;
+}
+}
+
+@media(max-width: 1100px) {
+    .header__title {
+        height: 15vw;
+        border: 3px solid blue;
+        box-shadow: 0 20px 50px darkblue;
+        background-image: url(../images/astronaut-001.png), url(../images/spacecraft-022.png), url(../images/AMC-6.png), url(../images/5b1d2cb5335ff163e9f6a3da.png), url(../images/Planet.png), url(../images/sputnik.png), url(../images/rocket.png), url(../images/11.png), url(../images/astronaut_PNG26.png), url(../images/earth-better1.png);
+        background-size: 10%, 8%, 15%, 15%, 11.5%, 11%, 10%, 11%, 8%, 80%;
+        background-repeat: no-repeat;
+        background-position: 25px 20px, 150px 20px, 270px 20px, 410px 20px, 600px 20px, 720px 20px, 850px 20px, 960px 20px, 1625px 20px, center;
+}
+}

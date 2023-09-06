@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+<title></title>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jQuizler.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/jQuizler.css" />
+
+<script type="text/javascript">
+var questions = [
+    {
+        type: "choose",
+        question: "<h3>Кто был первым человеком в космосе?</h3>",
+        answers: [
+            "Юрий Гагарин",
+            "Нил Армстронг",
+            "Георгий Береговой",
+			"Базз Олдрин",
+			"Дэвид Скотт"
+        ],
+        correct: [1]
+    },
+	{
+        type: "choose",
+        question: "<h3>Кто был первым человеком на Луне?</h3>",
+        answers: [
+            "Дэвид Скотт",
+            "Нил Армстронг",
+            "Юрий Гагарин",
+			"Базз Олдрин"
+        ],
+        correct: [2]
+    },
+	{
+        type: "choose",
+        question: "<h3>Как назывался первый космический корабль с экипажем?</h3>",
+        answers: [
+            "Восток-1",
+            "Пионер-10",
+            "Спутник-1"
+        ],
+        correct: [1]
+    },
+	{
+        type: "choose",
+        question: "<h3>Как назывался первый искусственный спутник?</h3>",
+        answers: [
+            "Пионер-10",
+            "Спутник-1",
+            "Салют-1"
+        ],
+        correct: [2]
+    },
+	{
+        type: "choose",
+        question: "<h3>Как назывался первый многоразовый космический корабль?</h3>",
+        answers: [
+            "Колумбия",
+            "Буран",
+            "Зонд-5",
+			"Байконур"
+        ],
+        correct: [1]
+    },
+	{
+        type: "choose",
+        question: "<h3>Как называлась первая автоматическая межпланетная станция, покинувшая пределы Солнечной системы?</h3>",
+        answers: [
+            "Зонд-5",
+            "Спутник-7-1",
+            "Пионер-10",
+			"Космос-186"
+        ],
+        correct: [3]
+    },
+	{
+        type: "choose",
+        question: "<h3>Космическая гонка была между...</h3>",
+        answers: [
+            "СССР, США и Китаем",
+            "США И СССР",
+            "Россией и США",
+			"Россией и Китаем"
+        ],
+        correct: [2]
+    },
+	{
+        type: "choose",
+        question: "<h3>Как назывался космический корабль, который второй совершил полет вокруг Луны, но первый благополучно вернулся на Землю?</h3>",
+        answers: [
+            "Восток-1",
+            "Аполлон-11",
+			"Зонд-5",
+			"Союз-4"
+        ],
+        correct: [3]
+    },
+	{
+        type: "choose",
+        question: "<h3>Сколько полетов было произведено на Буране?</h3>",
+        answers: [
+            "2",
+            "1",
+            "4",
+			"3"
+        ],
+        correct: [2]
+    },
+	{
+        type: "choose",
+        question: "<h3>В каком году был произведен первый полет на Луну?</h3>",
+        answers: [
+            "1961",
+            "1966",
+            "1971",
+			"1969"
+        ],
+        correct: [4]
+    },
+	{
+        type: "choose",
+        question: "<h3>В каком году был произведен полет первого пилотируемого космического корабля?</h3>",
+        answers: [
+            "1961",
+            "1969",
+            "1971",
+			"1957"
+        ],
+        correct: [1]
+    },
+	{
+        type: "choose",
+        question: "<h3>В каком году была произведена первая передача экипажа в открытом космосе?</h3>",
+        answers: [
+            "1971",
+            "1988",
+            "1961",
+			"1969"
+        ],
+        correct: [4]
+    }
+];
+
+$("document").ready(function(){
+    $("#jQuizler").jQuizler(questions);
+});
+
+</script>
+</head>
+<body>
+    <div id="div">
+        <a id="a1" href="../index1.html">ГЛАВНАЯ СТРАНИЦА</a>
+    </div>
+    <div id="jQuizler" class="main-quiz-holder">
+        <h3>Тест по истории освоения космоса<br/>Проверьте свои знания</h3>
+		<p><img src="images/bbd681bcd96c64917912828e02a4ce7f.png" /></p>
+        <button class="btn btn-large">Начать</button>
+    </div>
+</body>
+</html>

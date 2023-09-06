@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+<title></title>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jQuizler.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/jQuizler.css" />
+
+<script type="text/javascript">
+var questions = [
+    {
+        type: "choose",
+        question: "<h3>Who is the first man in space?</h3>",
+        answers: [
+            "Yuri Gagarin",
+            "Neil Armstrong",
+            "Georgi Beregovoi",
+			"Buzz Aldrin",
+			"David Scott"
+        ],
+        correct: [1]
+    },
+	{
+        type: "choose",
+        question: "<h3>Who is the first man on the Moon?</h3>",
+        answers: [
+            "David Scott",
+            "Neil Armstrong",
+            "Yuri Gagarin",
+			"Buzz Aldrin"
+        ],
+        correct: [2]
+    },
+	{
+        type: "choose",
+        question: "<h3>What is the name of the first crewed spacecraft?</h3>",
+        answers: [
+            "Vostok 1",
+            "Pioneer 10",
+            "Sputnik 1"
+        ],
+        correct: [1]
+    },
+	{
+        type: "choose",
+        question: "<h3>What is the name of the first artificial satellite?</h3>",
+        answers: [
+            "Pioneer 10",
+            "Sputnik 1",
+            "Salyut 1"
+        ],
+        correct: [2]
+    },
+	{
+        type: "choose",
+        question: "<h3>What is the name of the first reusable spacecraft?</h3>",
+        answers: [
+            "Columbia",
+            "Buran",
+            "Zond 5",
+			"Baikonur"
+        ],
+        correct: [1]
+    },
+	{
+        type: "choose",
+        question: "<h3>What is the name of the spacecraft which left the limits of the solar system?</h3>",
+        answers: [
+            "Zond 5",
+            "Sputnik 7-1",
+            "Pioneer 10",
+			"Kosmos 186"
+        ],
+        correct: [3]
+    },
+	{
+        type: "choose",
+        question: "<h3>Space race was between...</h3>",
+        answers: [
+            "the USSR, the USA and China",
+            "the USA and the USSR",
+            "Russia and the USA",
+			"China and Russia"
+        ],
+        correct: [2]
+    },
+	{
+        type: "choose",
+        question: "<h3>What was the second spaceship to travel to and circle the Moon, and the first to return safely to Earth?</h3>",
+        answers: [
+            "Vostok 1",
+            "Apollo 11",
+			"Zond 5",
+			"Soyuz 4"
+        ],
+        correct: [3]
+    },
+	{
+        type: "choose",
+        question: "<h3>How many flights were made on Buran?</h3>",
+        answers: [
+            "2",
+            "1",
+            "4",
+			"3"
+        ],
+        correct: [2]
+    },
+	{
+        type: "choose",
+        question: "<h3>What year was the first flight to the moon?</h3>",
+        answers: [
+            "1961",
+            "1966",
+            "1971",
+			"1969"
+        ],
+        correct: [4]
+    },
+	{
+        type: "choose",
+        question: "<h3>What year was the first crewed flight to the space?</h3>",
+        answers: [
+            "1961",
+            "1969",
+            "1971",
+			"1957"
+        ],
+        correct: [1]
+    },
+	{
+        type: "choose",
+        question: "<h3>What year was the first transfer of crew in space?</h3>",
+        answers: [
+            "1971",
+            "1988",
+            "1961",
+			"1969"
+        ],
+        correct: [4]
+    }
+];
+
+$("document").ready(function(){
+    $("#jQuizler").jQuizler(questions);
+});
+
+</script>
+</head>
+<body>
+    <div id="div">
+        <a id="a1" href="../index.html">HOME PAGE</a>
+    </div>
+    <div id="jQuizler" class="main-quiz-holder">
+        <h3>World space exploration test <br/> Check your knowledge </h3>
+		<p><img src="images/bbd681bcd96c64917912828e02a4ce7f.png" /></p>
+        <button class="btn btn-large">Start</button>
+    </div>
+</body>
+</html>
